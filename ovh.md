@@ -6,7 +6,7 @@ unzip master.zip
 cd TeachCraft-Server-master/
 apt-get install openjdk-7-jre-headless screen
 chmod +x run.sh
-screen /root/TeachCraft-Server-master/run.sh
+screen -d -m /root/TeachCraft-Server-master/run.sh
 
 
 
