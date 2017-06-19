@@ -1,3 +1,3 @@
 #!/bin/sh
 
-python ./wrapper
+screen -d -m python ./wrapper
