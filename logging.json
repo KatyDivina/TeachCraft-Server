@@ -1,0 +1,53 @@
+{
+    "disable_existing_loggers": false,
+    "handlers": {
+        "error_file_handler": {
+            "encoding": "utf8",
+            "backupCount": 20,
+            "filters": [],
+            "level": "ERROR",
+            "formatter": "file",
+            "class": "utils.log.WrapperHandler",
+            "maxBytes": 10485760,
+            "filename": "logs/wrapper/wrapper.errors.log"
+        },
+        "console": {
+            "stream": "ext://sys.stdout",
+            "formatter": "standard",
+            "class": "logging.StreamHandler",
+            "filters": [],
+            "level": "INFO"
+        },
+        "wrapper_file_handler": {
+            "encoding": "utf8",
+            "backupCount": 20,
+            "filters": [],
+            "level": "INFO",
+            "formatter": "file",
+            "class": "utils.log.WrapperHandler",
+            "maxBytes": 10485760,
+            "filename": "logs/wrapper/wrapper.log"
+        }
+    },
+    "wrapperversion": 1.2,
+    "formatters": {
+        "file": {
+            "datefmt": "%Y-%m-%d %H:%M:%S",
+            "format": "[%(asctime)s] [%(name)s/%(levelname)s]: %(message)s"
+        },
+        "standard": {
+            "datefmt": "%H:%M:%S",
+            "()": "utils.log.ColorFormatter",
+            "format": "[%(asctime)s] [%(name)s/%(levelname)s]: %(message)s"
+        }
+    },
+    "version": 1,
+    "root": {
+        "handlers": [
+            "console",
+            "wrapper_file_handler",
+            "error_file_handler"
+        ],
+        "level": "NOTSET"
+    }
+}

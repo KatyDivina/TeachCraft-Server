@@ -18,4 +18,4 @@ http://www.stuffaboutcode.com/2014/10/minecraft-raspberryjuice-and-canarymod.htm
 
 ##### Notes
 
-If you have trouble getting this server running, try this [alternative CanaryMod based server](https://github.com/teachthenet/TeachCraft-Server/tree/alternative-server).
+If you have trouble getting this server running, try this (alternative CanaryMod based server)[https://github.com/teachthenet/TeachCraft-Server/tree/alternative-server].

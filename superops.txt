@@ -1,0 +1,2 @@
+<op_player_1>=10
+<op_player_2>=9

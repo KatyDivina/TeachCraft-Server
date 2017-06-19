@@ -1,0 +1,92 @@
+{
+  "Backups": {
+    "backup-compression": false,
+    "backup-folders": [
+      "server.properties",
+      "world"
+    ],
+    "backup-interval": 3600,
+    "backup-location": "backup-directory",
+    "backup-notification": true,
+    "backups-keep": 10,
+    "enabled": false
+  },
+  "Entities": {
+    "enable-entity-controls": false,
+    "entity-update-frequency": 4,
+    "thin-Chicken": 30,
+    "thin-Cow": 40,
+    "thin-Sheep": 40,
+    "thin-cow": 40,
+    "thin-zombie_pigman": 200,
+    "thinning-activation-threshhold": 100,
+    "thinning-frequency": 30
+  },
+  "Gameplay": {
+    "use-timer-tick-event": false
+  },
+  "General": {
+    "auto-restart": true,
+    "command": "java -jar -Xmx2G -Xms1G Minecraft_Server.jar nogui",
+    "encoding": "UTF-8",
+    "server-directory": ".",
+    "shell-scripts": false,
+    "timed-reboot": false,
+    "timed-reboot-minutes": 1440,
+    "timed-reboot-warning-minutes": 5
+  },
+  "IRC": {
+    "autorun-irc-commands": [
+      "COMMAND 1",
+      "COMMAND 2"
+    ],
+    "channels": [
+      "#wrapper"
+    ],
+    "command-character": ".",
+    "control-from-irc": false,
+    "control-irc-pass": "password",
+    "irc-enabled": false,
+    "nick": "MinecraftWrap",
+    "obstruct-nicknames": false,
+    "password": null,
+    "port": 6667,
+    "server": "teachcraft.net",
+    "show-channel-server": true,
+    "show-irc-join-part": true
+  },
+  "Misc": {
+    "command-prefix": "/",
+    "default-restart-message": "Server restarting...",
+    "reboot-message": "Server is conducting a scheduled reboot. The server will be back momentarily!",
+    "stop-message": "Stopping The Minecraft Server",
+    "use-readline": true
+  },
+  "Proxy": {
+    "convert-player-files": false,
+    "hidden-ops": [],
+    "max-players": 1024,
+    "online-mode": true,
+    "proxy-bind": "0.0.0.0",
+    "proxy-enabled": false,
+    "proxy-port": 25565,
+    "proxy-sub-world": false,
+    "silent-ipban": true,
+    "spigot-mode": false
+  },
+  "Updates": {
+    "auto-update-branch": null,
+    "auto-update-wrapper": false,
+    "dev-branch": "https://raw.githubusercontent.com/benbaptist/minecraft-wrapper/development/build/version.json",
+    "stable-branch": "https://raw.githubusercontent.com/benbaptist/minecraft-wrapper/master/build/version.json"
+  },
+  "Web": {
+    "public-stats": true,
+    "server-name": "Minecraft Server",
+    "web-allow-file-management": true,
+    "web-bind": "127.0.0.1",
+    "web-enabled": false,
+    "web-password": "password",
+    "web-port": 8070
+  }
+}
