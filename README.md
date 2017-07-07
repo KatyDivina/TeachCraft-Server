@@ -1,21 +1,28 @@
-##### To Run Locally
+##### Out of the box features
 
-Launch multiplayer server by running this command in your terminal:
+- Execute Python against the server, giving your character superpowers!
+- Weather is turned off
+- No hostile mobs
+- Permanent daylight
+- Permanent nightvision potion effect
+- Permanent sword + bow in your inventory (used for interacting with in python)
+
+##### To Run
+
+Launch multiplayer server by running this command in your terminal (where 1G is the amount of RAM dedicated to the server):
 ```
-java -Xms3036M -Xmx3036M -jar Minecraft_Server.jar
+java -Xms1G -Xmx1G -jar Minecraft_Server.jar
 ```
 
 Now when you can connect to this server using Multiplayer -> Direct Connect -> 127.0.0.1
 
-##### To Run Online
+You can also launch the server using our embedded <a href='https://github.com/TeachCraft/minecraft-wrapper'>minecraft-wrapper</a> via python, which gets you an auto-reboot on server crash:
+```
+python ./wrapper
+```
+If you do that, you can change the parameters for how the server launches in <a href='https://github.com/TeachCraft/TeachCraft-Server/blob/master/wrapper.properties.json#L30'>wrapper.properties.json</a>
 
-- Upload these files to your minecraft hosting provider.
-- Somewhere your host will have a spot that specifies what .jar file is the server executable. Update that to the Minecraft_Server.jar
-- Restart your server 
+##### Open Source Libraries Used
 
-##### This Server Setup
-http://www.stuffaboutcode.com/2014/10/minecraft-raspberryjuice-and-canarymod.html
-
-##### Notes
-
-If you have trouble getting this server running, try this (alternative CanaryMod based server)[https://github.com/teachthenet/TeachCraft-Server/tree/alternative-server].
+- <a href='https://github.com/TeachCraft/RaspberryJuice'>Raspberry Juice</a> (for python api to MC server)
+- <a href='https://github.com/TeachCraft/minecraft-wrapper'>minecraft-wrapper</a> (for auto-reboot on crash)
