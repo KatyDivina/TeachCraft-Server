@@ -1,11 +1,11 @@
 ##### Out of the box features
 
-- Execute Python against the server, giving your character superpowers!
+- Execute Python against the server, giving your character superpowers! [Add api link here]
 - Weather is turned off
 - No hostile mobs
 - Permanent daylight
 - Permanent nightvision potion effect
-- Permanent sword + bow in your inventory (used for interacting with in python)
+- Permanent sword + bow in your inventory (used for interacting with in python) [Add example link here]
 
 ##### To Run
 
