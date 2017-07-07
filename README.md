@@ -3,7 +3,6 @@
 - Execute Python against the server, giving your character superpowers! [<a href='https://github.com/TeachCraft/RaspberryJuice'>API</a>] [<a href='https://github.com/TeachCraft/TeachCraft-Examples'>Examples</a>]
 - Weather is turned off
 - No hostile mobs
-- Permanent daylight
 - Permanent nightvision potion effect
 - Permanent sword + bow in your inventory (used for interacting with in python) [<a href='https://github.com/TeachCraft/TeachCraft-Examples/blob/master/spellcraft.py'>Example</a>]
 
