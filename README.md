@@ -5,6 +5,7 @@
 - No hostile mobs
 - Permanent nightvision potion effect
 - Permanent sword + bow in your inventory (used for interacting with in python) [<a href='https://github.com/TeachCraft/TeachCraft-Examples/blob/master/spellcraft.py'>Example</a>]
+- No authentication required
 
 ### To Run
 
@@ -20,6 +21,11 @@ You can also launch the server using our embedded <a href='https://github.com/Te
 python ./wrapper
 ```
 If you do that, you can change the parameters for how the server launches in <a href='https://github.com/TeachCraft/TeachCraft-Server/blob/master/wrapper.properties.json#L30'>wrapper.properties.json</a>
+
+### To connect to server
+
+- Launch Minecraft v1.8 on Mojang's official launcher [<a href='https://www.youtube.com/watch?v=6honpgnzfcI'>Video</a>]
+- Or launch with our <a href='https://github.com/TeachCraft/TeachCraft-ClientLauncher'>custom python launcher</a>, already hardcoded to v1.8
 
 ### Open Source Libraries Used
 
