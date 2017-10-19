@@ -4,7 +4,7 @@
 - Weather is turned off
 - No hostile mobs
 - Permanent nightvision potion effect
-- Permanent sword + bow in your inventory (used for interacting with in python) [<a href='https://github.com/TeachCraft/TeachCraft-Examples/blob/master/spellcraft.py'>Example</a>]
+- Permanent sword + bow in your inventory (used for interacting with in python) [<a href='https://github.com/TeachCraft/TeachCraft-Examples/blob/master/examples/mcpi_superpowers.py'>Example</a>]
 - No authentication required
 
 ### To Run
